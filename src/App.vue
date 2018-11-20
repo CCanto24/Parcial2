@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <center>
-    <h1>Bienvenido</h1>
+    <h1>Parcial 2</h1>
+    <p>Carlos Canto 8-896-2125</p>
     </center>
    <login/>
+   
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import login from './components/Login.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     login
   }
 }
